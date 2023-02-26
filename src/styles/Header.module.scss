@@ -1,0 +1,17 @@
+@import "global";
+
+.header__container {
+    background-image: url("src/assets/images/bg-header-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 158px;
+    background-color: $primary;
+    position: relative;
+}
+
+@media screen and (min-width: 800px) {
+    .header__container {
+        background-image: url("src/assets/images/bg-header-desktop.svg");
+    }
+}
